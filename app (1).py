@@ -28,7 +28,7 @@ def predict():
     print(distance)
     # print(time)
 
-    model_path = 'model_saved'
+    model_path = 'new_model'
     model = pickle.load(open(model_path, 'rb'))
 
     data = np.array([[distance]])
