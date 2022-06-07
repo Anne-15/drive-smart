@@ -16,7 +16,7 @@ The saved model under the folder new_model from the sklearn model. We used pickl
 With the tensorflow model, we saved checkpoints of the training model during the training process. Then a saved model of the trained model after training the check points.
 
 # The main file for the model
-app(1).py - an API to export the machine learning and AI model for external applications\n.
+app(1).py - an API to export the machine learning and AI model for external applications.
 model.py - tensorflow model
 model_s.py - sklearn model
 new_model - saved model sklearn
